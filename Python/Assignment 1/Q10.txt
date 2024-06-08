@@ -1,0 +1,10 @@
+The "self" keyword in Python is used for to refer to the current instance of a class. 
+This allows each instance of a class to have its own attributes, state and behavior. 
+
+If there was a class called Cats, you could have different cats.
+
+cat1 = cat("Max", 4)
+cat2 = cat("Jaxon, 5)
+
+This allows multiple instances of the "cat" class, (cat1 and cat2) with their own attributes, 
+but can still call upon the parent classes default values.
