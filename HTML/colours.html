@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .header, .footer {
+            height: 20%;
+            background-color: green;
+        }
+        .footer {
+            background-color: red;
+        }
+        .body {
+            height: 60%;
+            background-color: yellow;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .square {
+            flex: 1;
+            margin: 70px;
+            aspect-ratio: 1 / 1;
+            background-color: blue;
+            max-width: calc(18%); /* Makes squares smaller */
+        }
+        .header, .body, .footer {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 40px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Header</div>
+    <div class="body">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+</html>

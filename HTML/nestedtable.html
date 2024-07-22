@@ -1,0 +1,80 @@
+<style>
+  table {
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid;
+    padding: 10px;
+  }
+  .genre-table {
+    width: 20%;
+  }
+  .song-table {
+    width: 100%;
+  }
+
+</style>
+
+<table class="genre-table">
+  <tr>
+    <td>
+      <!-- Description Table -->
+      <table>
+        <tr>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>A nested table containing artists along with some of their music.</td>
+        </tr>
+      </table>
+      <!-- Artist Table -->
+      <table class="artist-table">
+        <tr>
+          <th>Artist</th>
+          <th>Music</th>
+        </tr>
+        <tr>
+          <td>Foo Fighters</td>
+          <td>
+            <!-- Foo Fighters Song Table -->
+            <table class="song-table">
+              <tr>
+                <th>Song</th>
+                <th>Album</th>
+              </tr>
+              <tr>
+                <td>Everlong</td>
+                <td>The Colour and the Shape</td>
+              </tr>
+              <tr>
+                <td>Rope</td>
+                <td>Wasting Light</td>
+              </tr>
+            </table>
+            <!-- End of Song Table for Foo Fighters -->
+          </td>
+        </tr>
+        <tr>
+            <td>Green Day</td>
+            <td>
+              <!-- Song Table for Green Day -->
+              <table class="song-table">
+                <tr>
+                  <th>Song</th>
+                  <th>Album</th>
+                </tr>
+                <tr>
+                  <td>Basket Case</td>
+                  <td>Dookie</td>
+                </tr>
+                <tr>
+                  <td>St. Jimmy</td>
+                  <td>American Idiot</td>
+                </tr>
+              </table>
+      </table>
+      <!-- End of Artist Table -->
+    </td>
+  </tr>
+</table>
+<!-- End of Genre Table -->
