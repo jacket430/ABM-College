@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .login-box {
+            background-color: #D9D9D9;
+            width: 45vh;
+            border-radius: 5px;
+            padding: 2vh;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .login-box h1{
+            text-align: center;
+        }
+        .login-box input, .login-box button {
+            border: 1px solid grey;
+            background-color: #ECECEC;
+            width: 30vh;
+            height: 5vh;
+            font-size: large;
+            text-align: center;
+        }
+        .login-box input[type="email"]{
+            margin-bottom: 10px;
+        }
+        .login-box input[type="button"]{
+            box-sizing: border-box;
+            margin-top: 10px;
+            margin-bottom: 2vh;
+            border-radius: 5px;
+            width: 15vh;
+            background-color: #ff6991;
+        }
+        .login-box input[type="button"]:hover {
+            background-color: #ff9fba;
+        }
+        .login-box input[type="button"]:active {
+            background-color: #c94f6d;
+        }
+        .login-box img{
+            margin: 2vh;
+        }
+        .register-text {
+            font-size: 14px;
+            margin-bottom: 2vh;
+            color: #5f5f5f;
+        }
+        .register-text a {
+            color: #ff6991;
+        }
+        .top-input-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .top-input-row input {
+            width: calc(50% - 5px);
+            box-sizing: border-box;
+        }
+        .middle-input-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .middle-input-row input {
+            width: calc(50% - 5px);
+            box-sizing: border-box;
+        }
+        .bottom-input-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+        .bottom-input-row input {
+            width: calc(50% - 5px);
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <img src="logo.png">
+        <div class="top-input-row">
+            <input type="text" name="firstname" id="firstname" placeholder="First Name">
+            <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+        </div>
+        <div class="middle-input-row">
+            <input type="text" name="email" id="email" placeholder="Username">
+            <input type="email" name="email" id="email" placeholder="Email Address">
+        </div>
+        <div class="bottom-input-row">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <input type="password" name="password" id="password" placeholder="Confirm Password">
+        </div>
+        <input type="button" name="button" id="button" value="Register">
+        <b class="register-text">Already have an account? <a href="login.html">Click here to log in!</a></b>
+    </div>
+</body>
+</html>

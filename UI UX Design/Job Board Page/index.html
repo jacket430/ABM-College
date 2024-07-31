@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masonry Layout with Banner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .banner {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 80px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .masonry-container {
+            column-count: 5; /* Number of columns */
+            column-gap: 10px; /* Space between columns */
+            padding: 10px;
+        }
+        .masonry-item {
+            background-color: #ffffff;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            break-inside: avoid;
+            box-sizing: border-box;
+            display: inline-block;
+            width: 100%; /* Adjust width to fit column count */
+            border-bottom: 1px solid #000000;
+        }
+        .masonry-item-2 {
+            background-color: #807e80;
+            color: white;
+            padding: 10px;
+            padding-bottom: 10px;
+            break-inside: avoid;
+            box-sizing: border-box;
+            display: inline-block;
+            width: 100%; /* Adjust width to fit column count */
+        }
+        .masonry-item-3 {
+            background-color: #ffffff;
+            padding: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            break-inside: avoid;
+            box-sizing: border-box;
+            display: inline-block;
+            width: 100%; /* Adjust width to fit column count */
+            border-bottom: 1px solid #000000;
+        }
+        .title {
+            background-color: #000000;
+            color: white;
+            padding: 10px;
+            margin: 0;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+            font-size: xx-large;
+        }
+        .title-2 {
+            background-color: #807e80;
+            color: white;
+            padding: 10px;
+            margin: 0;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+        .title-3 {
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            margin: 0;
+            text-align: center;
+        }
+        .content {
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .content-2 {
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .content-3 {
+            padding-top: 10px;
+            padding-bottom: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .content-header {
+            font-size: large;
+            padding-top: 15px;
+            padding-bottom: 5px;
+            text-align: center;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <header class="banner">
+        JOBS WANTED
+    </header>
+    <div class="masonry-container">
+        <div class="masonry-item">
+            <h3 class="title">BUSINESS</h3>
+            <div class="content-header">ECONOMIST REQUIRED</div>
+            <div class="content">Global Insights Corp. seeks an Economist for our New York City office. Responsibilities include economic research, forecasting, and strategic analysis. Requires a Master’s degree in Economics or Finance and 3+ years of relevant experience. Proficiency in statistical software is essential. Apply with resume to jobs@globalinsights.com by August 31, 2024.</div>
+        </div>
+        <div class="masonry-item-2">
+            <h3 class="title-2">BUSINESS COURSES</h3>
+            <div class="content-2">Enhance your career with our comprehensive Business Courses. Enroll now for flexible classes in management, marketing, finance, and entrepreneurship. Ideal for professionals looking to upskill or pivot careers. Courses available online and in-person in New York City.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">CUSTOMER SERVICE</h3>
+            <div class="content-3">We are looking for a Customer Service Representative to join our team. The ideal candidate will have excellent communication skills, a positive attitude, and the ability to resolve customer issues efficiently. Responsibilities include answering inquiries, processing orders, and providing exceptional service. Prior experience in customer service is preferred.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">CUSTOMER SERVICE</h3>
+            <div class="content-3">Our company is seeking a Customer Service Specialist who can handle customer interactions professionally. Duties include managing customer complaints, providing product information, and ensuring high levels of satisfaction. Candidates should possess strong problem-solving skills and previous experience in a similar role.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">CALL CENTER MANAGER</h3>
+            <div class="content-3">We are hiring a Call Center Manager to oversee our call center operations. The role involves managing a team of agents, developing training programs, and ensuring performance metrics are met. Experience in call center management and strong leadership skills are required.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">SERVICE MANAGER</h3>
+            <div class="content-3">As a Service Manager, you will be responsible for managing service delivery, ensuring customer satisfaction, and leading a team of service technicians. Strong organizational skills and previous experience in service management are essential.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">ADVERTISING MANAGER</h3>
+            <div class="content-3">Our company is in need of an Advertising Manager to plan and execute advertising campaigns. Responsibilities include managing budgets, analyzing market trends, and collaborating with creative teams. Previous experience in advertising and marketing is required.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">INFORMATION MANAGER</h3>
+            <div class="content-3">We are looking for an Information Manager to oversee our information systems and data management. Duties include implementing data policies, ensuring data security, and managing information flow. Experience in IT management and a strong understanding of data systems are necessary.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">EXECUTIVE</h3>
+            <div class="content-3">Seeking an Executive to provide strategic leadership and direction for our company. Responsibilities include developing business strategies, managing high-level operations, and representing the company in external engagements. Extensive experience in executive roles and strong leadership skills are required.</div>
+        </div>
+        <div class="masonry-item">
+            <h3 class="title">IT - COMPUTERS</h3>
+            <div class="content-header">HTML PROGRAMMER</div>
+            <div class="content">We need an HTML Programmer to develop and maintain web applications. Responsibilities include writing clean, efficient HTML code, and collaborating with designers and developers. Proficiency in HTML, CSS, and JavaScript is required.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">PHP PROGRAMMER</h3>
+            <div class="content-3">We are hiring a PHP Programmer to work on server-side web development. The role involves creating dynamic web applications and integrating with databases. Strong knowledge of PHP, MySQL, and web development best practices is necessary.</div>
+        </div>
+        <div class="masonry-item-2">
+            <h3 class="title-2">WEB COURSES</h3>
+            <div class="content-2">Learn the latest web development techniques with our comprehensive web courses. Topics include HTML, CSS, JavaScript, and responsive design. Ideal for those looking to start or advance their career in web development. Courses are available online and in-person.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">C# PROGRAMMER</h3>
+            <div class="content-3">We are seeking a C# Programmer to join our development team. Responsibilities include designing and coding C# applications, debugging, and maintaining software. Proficiency in C# and experience with .NET frameworks are required.</div>
+        </div>
+        <div class="masonry-item">
+            <h3 class="title">PART-TIME JOB</h3>
+            <div class="content-header">FARM ASSISTANT</div>
+            <div class="content">We need a Farm Assistant to help with daily farm operations. Duties include assisting with planting, harvesting, and caring for livestock. Previous experience in farming or agriculture is beneficial but not required.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">PIZZA DELIVERY COURIER</h3>
+            <div class="content-3">Join our team as a Pizza Delivery Courier. Responsibilities include delivering pizzas to customers, ensuring timely and accurate orders, and providing excellent customer service. A valid driver's license and reliable transportation are required.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">GRAPHIC DESIGNER</h3>
+            <div class="content-3">We are looking for a creative Graphic Designer to join our marketing team. Responsibilities include creating visual content for digital and print media, collaborating with other designers and marketing professionals, and ensuring brand consistency. Proficiency in Adobe Creative Suite is required.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">DATA ANALYST</h3>
+            <div class="content-3">Seeking a skilled Data Analyst to interpret data and provide insights that support decision-making. Responsibilities include data collection, analysis, and visualization. Strong analytical skills, experience with statistical software, and a degree in a related field are essential.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">SEO SPECIALIST</h3>
+            <div class="content-3">We need an SEO Specialist to improve our website's search engine rankings. Duties include conducting SEO audits, keyword research, and on-page optimization. Experience with SEO tools and strategies, as well as a strong understanding of search engine algorithms, is required.</div>
+        </div>
+        <div class="masonry-item-3">
+            <h3 class="title-3">SALES REPRESENTATIVE</h3>
+            <div class="content-3">Join our sales team as a Sales Representative. Responsibilities include generating leads, managing client relationships, and meeting sales targets. Strong communication skills, a proven track record in sales, and the ability to work independently are necessary.</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

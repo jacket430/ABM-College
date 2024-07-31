@@ -1,0 +1,100 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    height: 35vh; /* 35% of the viewport height */
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the div without distortion */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Existing background color */
+    border-bottom: 1px solid #f0f0f0; /* 1px border at the bottom */
+}
+
+.middle-background {
+    width: fill-content; /* Full width */
+    background-color: #82fed5; /* Blue background color */
+    position: relative;
+    margin-top: 0; /* Ensure no space between this and the buttons */
+    padding: 40px;
+    margin-bottom: 6vh
+}
+
+.middle-background table {
+    margin: 0 auto; /* Centers the table in the div */
+    background-color: white; /* Sets the table background to white */
+    border-collapse: collapse; /* Removes space between borders */
+}
+
+.middle-background td {
+    border: 1px solid #ccc; /* Light grey border for each cell */
+    padding: 10px; /* Padding inside each cell */
+}
+
+.text-box {
+    margin: 10px; /* Adds some spacing inside the cell */
+    height: 150px;
+    width: 375px;
+    text-align: center
+}
+
+.bottom-text-box {
+    height: 13vh;
+    width: 80vw;
+    text-align: center
+}
+
+.bottom-background {
+    width: fill-content; /* Full width */
+    background-color: #82fed5; /* Blue background color */
+    position: relative;
+    height: 13vh;
+    padding: 20px
+}
+
+.bottom-background table {
+    margin: 0 auto; /* Centers the table in the div */
+    background-color: #8c2be3; /* Sets the table background to white */
+    border-collapse: collapse; /* Removes space between borders */
+    color: white;
+}
+
+.bottom-background td {
+    border: 1px solid #ccc; /* Light grey border for each cell */
+    padding: 1px; /* Padding inside each cell */
+}
+
+.btn {
+    flex: 1;
+    padding: 15px 0;
+    background-color: #d26920; /* Button background color */
+    color: white;
+    border: none;
+    border-left: 1px solid #f0f0f0; /* Creates a small border between buttons */
+    border-right: 1px solid #f0f0f0; /* Creates a small border between buttons */
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn:first-child {
+    border-left: none; /* Removes left border of the first button */
+}
+.btn:last-child {
+    border-right: none; /* Removes right border of the last button */
+}
+.btn:hover {
+    background-color: #b36500; /* Button hover color */
+}

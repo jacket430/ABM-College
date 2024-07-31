@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .sidenav {
+            height: 100%; /* Full-height: remove this if you want "auto" height */
+            width: 15%; /* Set the width of the sidebar */
+            position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+            z-index: 1; /* Stay on top */
+            top: 0; /* Stay at the top */
+            left: 0;
+            background-color: #d9d9d9; /* Black */
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 2vh;
+        }
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 30px;
+            color: #818181;
+            display: block;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh; */
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .banner-image {
+            width: 100%; /* Make the image take the full width of its container */
+            height: 200px; /* Maintain aspect ratio */
+            display: block; /* Remove any default margins */
+            object-fit: cover;
+        }
+        .main-content {
+            flex-grow: 1;
+            margin-left: 16%;
+            padding-top: 2vh;
+        }
+        .all-accounts {
+            background-color: #d9d9d9;
+            width: 99%;
+            padding: 25px;
+            padding-left: 7%;
+        }
+        .all-accounts table {
+            width: 93%; /* Make the table take the full width of its container */
+            border-collapse: collapse; /* Collapse borders between table cells */
+            text-align: center;
+            font-size: large;
+        }
+        .all-accounts th, .all-accounts td {
+            /* border: 1px solid #ffffff; Add a light grey border around each cell */
+            padding: 10px; /* Add some padding inside each cell for spacing */
+            text-align: left; /* Align text to the left */
+        }
+        .all-accounts th {
+            /* background-color: #e6e6e6; Light grey background for headers */
+            font-size: 1.1em; /* Slightly larger font size for headers */
+        }
+        .all-accounts th:nth-child(2), .all-accounts td:nth-child(2) {
+            text-align: center;
+        }
+        .all-accounts th:nth-child(3), .all-accounts td:nth-child(3) {
+            text-align: center;
+        }
+        .all-accounts th:nth-child(4), .all-accounts td:nth-child(4) {
+            text-align: right;
+        }
+        .recent-transactions {
+            background-color: #d9d9d9;
+            width: 99%;
+            padding: 25px;
+            padding-left: 7%;
+        }
+        .recent-transactions table {
+            width: 93%; /* Make the table take the full width of its container */
+            border-collapse: collapse; /* Collapse borders between table cells */
+            text-align: center;
+            font-size: large;
+        }
+        .recent-transactions th, .all-accounts td {
+            /* border: 1px solid #ffffff; Add a light grey border around each cell */
+            padding: 10px; /* Add some padding inside each cell for spacing */
+            text-align: left; /* Align text to the left */
+        }
+        .recent-transactions th {
+            /* background-color: #e6e6e6; Light grey background for headers */
+            font-size: 1.1em; /* Slightly larger font size for headers */
+        }
+        .recent-transactions th:nth-child(2), .all-accounts td:nth-child(2) {
+            text-align: center;
+        }
+        .recent-transactions th:nth-child(3), .all-accounts td:nth-child(3) {
+            text-align: center;
+        }
+        .recent-transactions th:nth-child(4), .all-accounts td:nth-child(4) {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidenav">
+        <img src="logo.png" style="height: 150px; display: block; margin: auto; margin-bottom: 5vh;">
+        <a href="#">Home</a>
+        <a href="#">Accounts</a>
+        <a href="#">Support</a>
+        <a href="#">Logout</a>
+    </div>
+    <div class="banner-image">
+        <img src="banner.png" alt="Banner" class="banner-image">
+        <div class="main-content">
+            <div class="all-accounts">
+                <table>
+                    <tr>
+                        <th>Accounts</th>
+                        <th>Balance</th>
+                        <th>Type</th>
+                        <th>Currency</th>
+                    </tr>
+                    <tr>
+                        <td>Account 1:</td>
+                        <td>$10,000.00</td>
+                        <td>Debit</td>
+                        <td>CAD</td>
+                    </tr>
+                    <tr>
+                        <td>Account 2:</td>
+                        <td>$10,000.00</td>
+                        <td>Credit (VISA)</td>
+                        <td>CAD</td>
+                    </tr>
+                    <tr>
+                        <td>Account 3:</td>
+                        <td>$00.00</td>
+                        <td>Savings</td>
+                        <td>CAD</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="recent-transactions">
+                <table>
+                    <tr>
+                        <th>Accounts</th>
+                        <th>Balance</th>
+                        <th>Type</th>
+                        <th>Currency</th>
+                    </tr>
+                    <tr>
+                        <td>Account 1:</td>
+                        <td>$10,000.00</td>
+                        <td>Debit</td>
+                        <td>CAD</td>
+                    </tr>
+                    <tr>
+                        <td>Account 2:</td>
+                        <td>$10,000.00</td>
+                        <td>Credit (VISA)</td>
+                        <td>CAD</td>
+                    </tr>
+                    <tr>
+                        <td>Account 3:</td>
+                        <td>$00.00</td>
+                        <td>Savings</td>
+                        <td>CAD</td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+</body>
+</html>
