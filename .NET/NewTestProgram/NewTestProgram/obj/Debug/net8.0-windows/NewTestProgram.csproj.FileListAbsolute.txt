@@ -1,0 +1,17 @@
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\NewTestProgram.Form1.resources
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\NewTestProgram.csproj.GenerateResource.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\NewTestProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\NewTestProgram.AssemblyInfoInputs.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\NewTestProgram.AssemblyInfo.cs
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\NewTestProgram.csproj.CoreCompileInputs.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\NewTestProgram.sourcelink.json
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\bin\Debug\net8.0-windows\NewTestProgram.exe
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\bin\Debug\net8.0-windows\NewTestProgram.deps.json
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\bin\Debug\net8.0-windows\NewTestProgram.runtimeconfig.json
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\bin\Debug\net8.0-windows\NewTestProgram.dll
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\bin\Debug\net8.0-windows\NewTestProgram.pdb
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\NewTestProgram.dll
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\refint\NewTestProgram.dll
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\NewTestProgram.pdb
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\NewTestProgram.genruntimeconfig.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\NewTestProgram\NewTestProgram\obj\Debug\net8.0-windows\ref\NewTestProgram.dll
