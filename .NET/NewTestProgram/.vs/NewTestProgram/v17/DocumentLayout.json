@@ -3,51 +3,95 @@
   "WorkspaceRootPath": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6E18EDC-8AF2-4710-AC23-39F3751A1C91}|NewTestProgram\\NewTestProgram.csproj|C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\newtestprogram\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E6E18EDC-8AF2-4710-AC23-39F3751A1C91}|NewTestProgram\\NewTestProgram.csproj|solutionrelative:newtestprogram\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E6E18EDC-8AF2-4710-AC23-39F3751A1C91}|NewTestProgram\\NewTestProgram.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\newtestprogram\\newtestprogram\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E18EDC-8AF2-4710-AC23-39F3751A1C91}|NewTestProgram\\NewTestProgram.csproj|solutionrelative:newtestprogram\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6E18EDC-8AF2-4710-AC23-39F3751A1C91}|NewTestProgram\\NewTestProgram.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\newtestprogram\\newtestprogram\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6E18EDC-8AF2-4710-AC23-39F3751A1C91}|NewTestProgram\\NewTestProgram.csproj|solutionrelative:newtestprogram\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6E18EDC-8AF2-4710-AC23-39F3751A1C91}|NewTestProgram\\NewTestProgram.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\newtestprogram\\newtestprogram\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E6E18EDC-8AF2-4710-AC23-39F3751A1C91}|NewTestProgram\\NewTestProgram.csproj|solutionrelative:newtestprogram\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6E18EDC-8AF2-4710-AC23-39F3751A1C91}|NewTestProgram\\NewTestProgram.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\newtestprogram\\newtestprogram\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6E18EDC-8AF2-4710-AC23-39F3751A1C91}|NewTestProgram\\NewTestProgram.csproj|solutionrelative:newtestprogram\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\NewTestProgram\\Form1.cs",
-              "RelativeDocumentMoniker": "NewTestProgram\\Form1.cs",
-              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\NewTestProgram\\Form1.cs",
-              "RelativeToolTip": "NewTestProgram\\Form1.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDEAAAAbAAAA",
+              "DocumentIndex": 0,
+              "Title": "Form4.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\NewTestProgram\\Form4.Designer.cs",
+              "RelativeDocumentMoniker": "NewTestProgram\\Form4.Designer.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\NewTestProgram\\Form4.Designer.cs",
+              "RelativeToolTip": "NewTestProgram\\Form4.Designer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T00:05:17.967Z",
+              "WhenOpened": "2024-08-10T02:54:31.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\NewTestProgram\\Form1.cs",
-              "RelativeDocumentMoniker": "NewTestProgram\\Form1.cs",
-              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\NewTestProgram\\Form1.cs [Design]",
-              "RelativeToolTip": "NewTestProgram\\Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\NewTestProgram\\Form4.cs",
+              "RelativeDocumentMoniker": "NewTestProgram\\Form4.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\NewTestProgram\\Form4.cs [Design]",
+              "RelativeToolTip": "NewTestProgram\\Form4.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T00:04:49.478Z",
+              "WhenOpened": "2024-08-10T01:09:11.787Z",
               "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "8d55cb1d-d483-4fa0-a5c9-f403dfdb4ab6",
+        "Display": 2,
+        "X": 549,
+        "Y": 79,
+        "Width": 1180,
+        "Height": 807,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\NewTestProgram\\Form4.cs",
+              "RelativeDocumentMoniker": "NewTestProgram\\Form4.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\NewTestProgram\\NewTestProgram\\Form4.cs",
+              "RelativeToolTip": "NewTestProgram\\Form4.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAD4v3gAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T02:43:59.646Z",
+              "EditorCaption": ""
             }
           ]
         }

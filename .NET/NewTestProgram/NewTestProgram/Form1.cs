@@ -68,5 +68,14 @@ namespace NewTestProgram
                 genderLabel.BackColor = Color.Black;
             }
         }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
     }
 }
