@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DatePickerCalc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5cd41570cba4cab6a6a736358f89220f3eddf84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b1c9e03c0746cbf4efd5f3076fa94868e470779")]
 [assembly: System.Reflection.AssemblyProductAttribute("DatePickerCalc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DatePickerCalc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

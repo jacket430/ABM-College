@@ -1,0 +1,17 @@
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\bin\Debug\net8.0-windows\Aug23.exe
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\bin\Debug\net8.0-windows\Aug23.deps.json
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\bin\Debug\net8.0-windows\Aug23.runtimeconfig.json
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\bin\Debug\net8.0-windows\Aug23.dll
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\bin\Debug\net8.0-windows\Aug23.pdb
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\Aug23.Form1.resources
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\Aug23.csproj.GenerateResource.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\Aug23.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\Aug23.AssemblyInfoInputs.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\Aug23.AssemblyInfo.cs
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\Aug23.csproj.CoreCompileInputs.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\Aug23.sourcelink.json
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\Aug23.dll
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\refint\Aug23.dll
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\Aug23.pdb
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\Aug23.genruntimeconfig.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug23\Aug23\obj\Debug\net8.0-windows\ref\Aug23.dll
