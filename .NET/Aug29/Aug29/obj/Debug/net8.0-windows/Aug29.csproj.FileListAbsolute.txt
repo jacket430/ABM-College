@@ -1,0 +1,8 @@
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug29\Aug29\obj\Debug\net8.0-windows\Aug29.csproj.AssemblyReference.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug29\Aug29\obj\Debug\net8.0-windows\Aug29.Form1.resources
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug29\Aug29\obj\Debug\net8.0-windows\Aug29.csproj.GenerateResource.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug29\Aug29\obj\Debug\net8.0-windows\Aug29.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug29\Aug29\obj\Debug\net8.0-windows\Aug29.AssemblyInfoInputs.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug29\Aug29\obj\Debug\net8.0-windows\Aug29.AssemblyInfo.cs
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug29\Aug29\obj\Debug\net8.0-windows\Aug29.csproj.CoreCompileInputs.cache
+C:\Users\avemi\Documents\GitHub\ABM-College\.NET\Aug29\Aug29\obj\Debug\net8.0-windows\Aug29.sourcelink.json

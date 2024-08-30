@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\aug28\\aug28\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|solutionrelative:aug28\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\aug28\\aug28\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|solutionrelative:aug28\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\aug28\\aug28\\acctype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|solutionrelative:aug28\\acctype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\aug28\\aug28\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|solutionrelative:aug28\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\aug28\\aug28\\globalstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|solutionrelative:aug28\\globalstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\aug28\\aug28\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|solutionrelative:aug28\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\aug28\\aug28\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|solutionrelative:aug28\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|c:\\users\\avemi\\documents\\github\\abm-college\\.net\\aug28\\aug28\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F499B-8B73-4240-B7FC-5F6BB0739CA5}|Aug28\\Aug28.csproj|solutionrelative:aug28\\loginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\Main.cs",
+              "RelativeDocumentMoniker": "Aug28\\Main.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\Main.cs",
+              "RelativeToolTip": "Aug28\\Main.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T01:10:28.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\Program.cs",
+              "RelativeDocumentMoniker": "Aug28\\Program.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\Program.cs",
+              "RelativeToolTip": "Aug28\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T01:45:41.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GlobalState.cs",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\GlobalState.cs",
+              "RelativeDocumentMoniker": "Aug28\\GlobalState.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\GlobalState.cs",
+              "RelativeToolTip": "Aug28\\GlobalState.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T01:38:49.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccType.cs",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\AccType.cs",
+              "RelativeDocumentMoniker": "Aug28\\AccType.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\AccType.cs",
+              "RelativeToolTip": "Aug28\\AccType.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T01:25:34.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\Main.cs",
+              "RelativeDocumentMoniker": "Aug28\\Main.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\Main.cs [Design]",
+              "RelativeToolTip": "Aug28\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T00:52:29.85Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginManager.cs",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\LoginManager.cs",
+              "RelativeDocumentMoniker": "Aug28\\LoginManager.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\LoginManager.cs",
+              "RelativeToolTip": "Aug28\\LoginManager.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T00:39:36.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\Login.cs",
+              "RelativeDocumentMoniker": "Aug28\\Login.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\Login.cs [Design]",
+              "RelativeToolTip": "Aug28\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T00:19:16.481Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\Login.cs",
+              "RelativeDocumentMoniker": "Aug28\\Login.cs",
+              "ToolTip": "C:\\Users\\avemi\\Documents\\GitHub\\ABM-College\\.NET\\Aug28\\Aug28\\Login.cs",
+              "RelativeToolTip": "Aug28\\Login.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T00:24:47.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
