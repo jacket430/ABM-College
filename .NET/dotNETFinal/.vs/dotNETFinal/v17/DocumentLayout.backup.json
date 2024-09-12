@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|d:\\github\\abm-college\\.net\\dotnetfinal\\dotnetfinal\\edittransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\edittransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|d:\\github\\abm-college\\.net\\dotnetfinal\\dotnetfinal\\newtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\newtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|d:\\github\\abm-college\\.net\\dotnetfinal\\dotnetfinal\\editproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\editproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|d:\\github\\abm-college\\.net\\dotnetfinal\\dotnetfinal\\editproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\editproperty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotnetfinal\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|d:\\github\\abm-college\\.net\\dotnetfinal\\dotnetfinal\\edittransaction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\edittransaction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|d:\\github\\abm-college\\.net\\dotnetfinal\\dotnetfinal\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotnetfinal\\edittransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\edittransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotnetfinal\\newtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\newtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|d:\\github\\abm-college\\.net\\dotnetfinal\\dotnetfinal\\newtransaction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\newtransaction.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|d:\\github\\abm-college\\.net\\dotnetfinal\\dotnetfinal\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|d:\\github\\abm-college\\.net\\dotnetfinal\\dotnetfinal\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|d:\\github\\abm-college\\.net\\dotnetfinal\\dotnetfinal\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{218F04BD-47C1-4A24-BD6A-67CF4C911BDE}|dotNETFinal\\dotNETFinal.csproj|solutionrelative:dotnetfinal\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditProperty.cs",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\EditProperty.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\EditProperty.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\EditProperty.cs",
+              "RelativeToolTip": "dotNETFinal\\EditProperty.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAgwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T12:05:02.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditProperty.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\EditProperty.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\EditProperty.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\EditProperty.cs [Design]",
+              "RelativeToolTip": "dotNETFinal\\EditProperty.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T12:04:59.3Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditTransaction.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\EditTransaction.Designer.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\EditTransaction.Designer.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\EditTransaction.Designer.cs",
+              "RelativeToolTip": "dotNETFinal\\EditTransaction.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T11:01:32.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditTransaction.cs",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\EditTransaction.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\EditTransaction.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\EditTransaction.cs*",
+              "RelativeToolTip": "dotNETFinal\\EditTransaction.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAqwLYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T11:01:08.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditTransaction.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\EditTransaction.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\EditTransaction.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\EditTransaction.cs [Design]*",
+              "RelativeToolTip": "dotNETFinal\\EditTransaction.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:54:48.618Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewTransaction.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\NewTransaction.Designer.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\NewTransaction.Designer.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\NewTransaction.Designer.cs",
+              "RelativeToolTip": "dotNETFinal\\NewTransaction.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:43:36.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewTransaction.cs",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\NewTransaction.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\NewTransaction.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\NewTransaction.cs",
+              "RelativeToolTip": "dotNETFinal\\NewTransaction.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAowLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:43:10.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NewTransaction.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\NewTransaction.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\NewTransaction.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\NewTransaction.cs [Design]",
+              "RelativeToolTip": "dotNETFinal\\NewTransaction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:16:50.915Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Property.cs",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\Property.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\Property.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\Property.cs",
+              "RelativeToolTip": "dotNETFinal\\Property.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T11:16:38.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\Main.Designer.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\Main.Designer.cs",
+              "RelativeToolTip": "dotNETFinal\\Main.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T11:26:48.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\Main.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\Main.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\Main.cs [Design]",
+              "RelativeToolTip": "dotNETFinal\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T11:26:49.943Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\Transaction.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\Transaction.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\Transaction.cs",
+              "RelativeToolTip": "dotNETFinal\\Transaction.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAjwA8AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T11:15:17.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\Main.cs",
+              "RelativeDocumentMoniker": "dotNETFinal\\Main.cs",
+              "ToolTip": "D:\\GitHub\\ABM-College\\.NET\\dotNETFinal\\dotNETFinal\\Main.cs",
+              "RelativeToolTip": "dotNETFinal\\Main.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCwAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T11:26:16.642Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|c:\\users\\administrator\\documents\\github\\abm-college\\sql\\sept3\\sept3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|solutionrelative:sept3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\sept3\\testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|solutionrelative:sept3\\testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|c:\\users\\administrator\\documents\\github\\abm-college\\sql\\sept3\\sept3\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|solutionrelative:sept3\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|c:\\users\\administrator\\documents\\github\\abm-college\\sql\\sept3\\sept3\\testtable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|solutionrelative:sept3\\testtable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\sept3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|solutionrelative:sept3\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|c:\\users\\administrator\\documents\\github\\abm-college\\sql\\sept3\\sept3\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|solutionrelative:sept3\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|c:\\users\\administrator\\documents\\github\\abm-college\\sql\\sept3\\sept3\\testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B88C4AA-E7A9-4B6D-821C-08DFB18ADDED}|Sept3\\Sept3.csproj|solutionrelative:sept3\\testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestTable.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\TestTable.cs",
+              "RelativeDocumentMoniker": "Sept3\\TestTable.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\TestTable.cs [Design]",
+              "RelativeToolTip": "Sept3\\TestTable.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:42:44.937Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestTable.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\TestTable.cs",
+              "RelativeDocumentMoniker": "Sept3\\TestTable.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\TestTable.cs",
+              "RelativeToolTip": "Sept3\\TestTable.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:37:05.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestTable.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\TestTable.Designer.cs",
+              "RelativeDocumentMoniker": "Sept3\\TestTable.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\TestTable.Designer.cs",
+              "RelativeToolTip": "Sept3\\TestTable.Designer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T02:36:37.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "Sept3\\Main.Designer.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\Main.Designer.cs",
+              "RelativeToolTip": "Sept3\\Main.Designer.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAUwEIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T01:56:04.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Sept3\\DatabaseHelper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\DatabaseHelper.cs",
+              "RelativeToolTip": "Sept3\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T01:48:37.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\Main.cs",
+              "RelativeDocumentMoniker": "Sept3\\Main.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\Main.cs",
+              "RelativeToolTip": "Sept3\\Main.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAjwHAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T01:47:42.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\Main.cs",
+              "RelativeDocumentMoniker": "Sept3\\Main.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\ABM-College\\SQL\\Sept3\\Sept3\\Main.cs [Design]",
+              "RelativeToolTip": "Sept3\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T01:37:29.632Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

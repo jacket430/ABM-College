@@ -47,6 +47,7 @@
             buttonClear = new Button();
             button10 = new Button();
             buttonHistory = new Button();
+            listBox1 = new ListBox();
             SuspendLayout();
             // 
             // button1
@@ -233,15 +234,25 @@
             buttonHistory.Name = "buttonHistory";
             buttonHistory.Size = new Size(75, 22);
             buttonHistory.TabIndex = 19;
-            buttonHistory.Text = "History";
+            buttonHistory.Text = "Clr History";
             buttonHistory.UseVisualStyleBackColor = true;
             buttonHistory.Click += buttonHistory_Click;
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 15;
+            listBox1.Location = new Point(334, 13);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(140, 274);
+            listBox1.TabIndex = 20;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(338, 303);
+            ClientSize = new Size(483, 303);
+            Controls.Add(listBox1);
             Controls.Add(buttonHistory);
             Controls.Add(button10);
             Controls.Add(buttonClear);
@@ -263,6 +274,7 @@
             Controls.Add(button1);
             Name = "Form2";
             Text = "Calculator";
+            Load += Form2_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -288,5 +300,6 @@
         private Button buttonClear;
         private Button button10;
         private Button buttonHistory;
+        private ListBox listBox1;
     }
 }
