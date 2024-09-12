@@ -63,7 +63,7 @@ namespace dotNETFinal
         {
             string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["SqlString"].ConnectionString;
             const string query = @"INSERT INTO Properties (Address, City, State, ZipCode, Price, Type, Bedrooms, Bathrooms, Description, ListingDate) 
-                 VALUES (@Address, @City, @State, @ZipCode, @Price, @Type, @Bedrooms, @Bathrooms, @Description, @ListingDate)";
+                                   VALUES (@Address, @City, @State, @ZipCode, @Price, @Type, @Bedrooms, @Bathrooms, @Description, @ListingDate)";
 
             using (var connection = new SqlConnection(connectionString))
             using (var command = new SqlCommand(query, connection))

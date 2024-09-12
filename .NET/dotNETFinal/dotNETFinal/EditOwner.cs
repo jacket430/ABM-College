@@ -1,19 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace dotNETFinal
 {
     public partial class EditOwner : Form
     {
-        private Owner _ownerToEdit;
+        private readonly Owner _ownerToEdit;
 
         public EditOwner(Owner ownerToEdit)
         {
@@ -25,26 +18,28 @@ namespace dotNETFinal
         {
             try
             {
-                _ownerToEdit.FirstName = firstNameBox.Text.Trim();
-                _ownerToEdit.LastName = lastNameBox.Text.Trim();
-                _ownerToEdit.PhoneNumber = phoneNumberBox.Text.Trim();
-                _ownerToEdit.Email = emailBox.Text.Trim();
-                _ownerToEdit.Address = addressBox.Text.Trim();
+                UpdateOwnerDetails();
 
                 if (ValidateOwner(_ownerToEdit))
                 {
-                    UpdateOwner(_ownerToEdit);
-                    toolStripStatusLabel1.Text = "Owner updated successfully!";
-                    MessageBox.Show("Owner updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.DialogResult = DialogResult.OK;
-                    this.Close();
+                    UpdateOwnerInDatabase(_ownerToEdit);
+                    DisplaySuccessMessage();
+                    CloseFormWithSuccess();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error updating owner: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                toolStripStatusLabel1.Text = "Error updating owner.";
+                DisplayErrorMessage(ex.Message);
             }
+        }
+
+        private void UpdateOwnerDetails()
+        {
+            _ownerToEdit.FirstName = firstNameBox.Text.Trim();
+            _ownerToEdit.LastName = lastNameBox.Text.Trim();
+            _ownerToEdit.PhoneNumber = phoneNumberBox.Text.Trim();
+            _ownerToEdit.Email = emailBox.Text.Trim();
+            _ownerToEdit.Address = addressBox.Text.Trim();
         }
 
         private bool ValidateOwner(Owner owner)
@@ -55,20 +50,19 @@ namespace dotNETFinal
                 string.IsNullOrWhiteSpace(owner.Email) ||
                 string.IsNullOrWhiteSpace(owner.Address))
             {
-                MessageBox.Show("Please fill in all required fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                toolStripStatusLabel1.Text = "Missing 1 or more required fields!";
+                DisplayValidationError();
                 return false;
             }
             return true;
         }
 
-        private void UpdateOwner(Owner owner)
+        private void UpdateOwnerInDatabase(Owner owner)
         {
             string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["SqlString"].ConnectionString;
             const string query = @"UPDATE Owners 
-                           SET FirstName = @FirstName, LastName = @LastName, PhoneNumber = @PhoneNumber, 
-                               Email = @Email, Address = @Address
-                           WHERE OwnerID = @OwnerID";
+                                   SET FirstName = @FirstName, LastName = @LastName, PhoneNumber = @PhoneNumber, 
+                                       Email = @Email, Address = @Address
+                                   WHERE OwnerID = @OwnerID";
 
             using (var connection = new SqlConnection(connectionString))
             using (var command = new SqlCommand(query, connection))
@@ -82,6 +76,30 @@ namespace dotNETFinal
                 connection.Open();
                 command.ExecuteNonQuery();
             }
+        }
+
+        private void DisplaySuccessMessage()
+        {
+            toolStripStatusLabel1.Text = "Owner updated successfully!";
+            MessageBox.Show("Owner updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void CloseFormWithSuccess()
+        {
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
+        private void DisplayErrorMessage(string message)
+        {
+            MessageBox.Show($"Error updating owner: {message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            toolStripStatusLabel1.Text = "Error updating owner.";
+        }
+
+        private void DisplayValidationError()
+        {
+            MessageBox.Show("Please fill in all required fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            toolStripStatusLabel1.Text = "Missing 1 or more required fields!";
         }
 
         private void EditOwner_Load(object sender, EventArgs e)

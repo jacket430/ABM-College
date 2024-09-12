@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace dotNETFinal
@@ -61,7 +55,6 @@ namespace dotNETFinal
                 return false;
             }
 
-            // Validate email format
             if (!IsValidEmail(owner.Email))
             {
                 MessageBox.Show("Please enter a valid email address.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -69,7 +62,6 @@ namespace dotNETFinal
                 return false;
             }
 
-            // Validate phone number (only numbers)
             if (!IsValidPhoneNumber(owner.PhoneNumber))
             {
                 MessageBox.Show("Please enter a valid phone number (numbers only).", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -85,18 +77,11 @@ namespace dotNETFinal
             if (string.IsNullOrWhiteSpace(email))
                 return false;
 
-            try
-            {
-                string pattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])*""|"
-                    + @"([-a-z0-9!#$%&'*+/=?^_{|}~]|(?<!\.)\.)*)(?<!\.)"
-                    + @"@[a-z0-9][\w\.-]*[a-z0-9]\.[a-z][a-z\.]*[a-z]$";
+            const string pattern = @"^(?!\.)(""([^""\r\\]|\\[""\r\\])*""|"
+                                   + @"([-a-z0-9!#$%&'*+/=?^_{|}~]|(?<!\.)\.)*)(?<!\.)"
+                                   + @"@[a-z0-9][\w\.-]*[a-z0-9]\.[a-z][a-z\.]*[a-z]$";
 
-                return Regex.IsMatch(email, pattern, RegexOptions.IgnoreCase);
-            }
-            catch
-            {
-                return false;
-            }
+            return Regex.IsMatch(email, pattern, RegexOptions.IgnoreCase);
         }
 
         private bool IsValidPhoneNumber(string phoneNumber)
@@ -108,7 +93,7 @@ namespace dotNETFinal
         {
             string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["SqlString"].ConnectionString;
             const string query = @"INSERT INTO Owners (FirstName, LastName, PhoneNumber, Email, Address) 
-                 VALUES (@FirstName, @LastName, @PhoneNumber, @Email, @Address)";
+                                   VALUES (@FirstName, @LastName, @PhoneNumber, @Email, @Address)";
 
             using (var connection = new SqlConnection(connectionString))
             using (var command = new SqlCommand(query, connection))

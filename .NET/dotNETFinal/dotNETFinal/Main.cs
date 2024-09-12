@@ -43,6 +43,7 @@ namespace dotNETFinal
         }
 
         private void UpdateStatus(string message) => toolStripStatusLabel1.Text = message;
+
         private void propertiesToolStripMenuItem_Click(object sender, EventArgs e) => LoadData("Properties");
         private void ownersToolStripMenuItem_Click(object sender, EventArgs e) => LoadData("Owners");
         private void transactionsToolStripMenuItem_Click(object sender, EventArgs e) => LoadData("Transactions");

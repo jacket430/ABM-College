@@ -1,0 +1,33 @@
+﻿USE [NETFinal]
+GO
+
+/****** Object:  Table [dbo].[Transactions]    Script Date: 2024-09-12 6:43:36 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Transactions](
+	[TransactionID] [int] IDENTITY(1,1) NOT NULL,
+	[PropertyID] [int] NOT NULL,
+	[OwnerID] [int] NOT NULL,
+	[TransactionDate] [datetime] NOT NULL,
+	[TransactionType] [nvarchar](50) NOT NULL,
+	[Amount] [decimal](18, 2) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[TransactionID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[Transactions]  WITH CHECK ADD FOREIGN KEY([OwnerID])
+REFERENCES [dbo].[Owners] ([OwnerID])
+GO
+
+ALTER TABLE [dbo].[Transactions]  WITH CHECK ADD FOREIGN KEY([PropertyID])
+REFERENCES [dbo].[Properties] ([PropertyID])
+GO
+
+

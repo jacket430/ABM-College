@@ -6,6 +6,8 @@ namespace dotNETFinal
 {
     public partial class NewTransaction : Form
     {
+        private readonly string _connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["SqlString"].ConnectionString;
+
         public NewTransaction()
         {
             InitializeComponent();
@@ -13,78 +15,39 @@ namespace dotNETFinal
 
         private void NewTransaction_Load(object sender, EventArgs e)
         {
-            if (!LoadPropertyIDs() || !LoadOwnerIDs())
+            if (!LoadIDs("Properties", "PropertyID", propertyIDBox) || !LoadIDs("Owners", "OwnerID", ownerIDBox))
             {
                 MessageBox.Show("Cannot create a new transaction. Ensure there is at least one entry in both Owners and Properties tables.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                this.Close();
-                return;
+                Close();
             }
             toolStripStatusLabel1.Text = "";
         }
 
-        private bool LoadPropertyIDs()
+        private bool LoadIDs(string tableName, string columnName, ComboBox comboBox)
         {
-            string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["SqlString"].ConnectionString;
-            const string query = "SELECT PropertyID FROM Properties";
+            const string queryTemplate = "SELECT {0} FROM {1}";
+            string query = string.Format(queryTemplate, columnName, tableName);
             bool hasEntries = false;
 
             try
             {
-                using (var connection = new SqlConnection(connectionString))
-                using (var command = new SqlCommand(query, connection))
+                using var connection = new SqlConnection(_connectionString);
+                using var command = new SqlCommand(query, connection);
+                connection.Open();
+                using var reader = command.ExecuteReader();
+                while (reader.Read())
                 {
-                    connection.Open();
-                    using (var reader = command.ExecuteReader())
+                    var id = reader[columnName].ToString();
+                    if (!string.IsNullOrEmpty(id))
                     {
-                        while (reader.Read())
-                        {
-                            var propertyID = reader["PropertyID"].ToString();
-                            if (!string.IsNullOrEmpty(propertyID))
-                            {
-                                propertyIDBox.Items.Add(propertyID);
-                                hasEntries = true;
-                            }
-                        }
+                        comboBox.Items.Add(id);
+                        hasEntries = true;
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error loading Property IDs: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
-            return hasEntries;
-        }
-
-        private bool LoadOwnerIDs()
-        {
-            string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["SqlString"].ConnectionString;
-            const string query = "SELECT OwnerID FROM Owners";
-            bool hasEntries = false;
-
-            try
-            {
-                using (var connection = new SqlConnection(connectionString))
-                using (var command = new SqlCommand(query, connection))
-                {
-                    connection.Open();
-                    using (var reader = command.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            var ownerID = reader["OwnerID"].ToString();
-                            if (!string.IsNullOrEmpty(ownerID))
-                            {
-                                ownerIDBox.Items.Add(ownerID);
-                                hasEntries = true;
-                            }
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error loading Owner IDs: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error loading {columnName}s: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             return hasEntries;
@@ -100,8 +63,8 @@ namespace dotNETFinal
                     return;
                 }
 
-                var propertyID = propertyIDBox.SelectedItem?.ToString();
-                var ownerID = ownerIDBox.SelectedItem?.ToString();
+                var propertyID = propertyIDBox.SelectedItem.ToString();
+                var ownerID = ownerIDBox.SelectedItem.ToString();
 
                 if (string.IsNullOrEmpty(propertyID) || string.IsNullOrEmpty(ownerID))
                 {
@@ -123,8 +86,8 @@ namespace dotNETFinal
                     InsertTransaction(transaction);
                     toolStripStatusLabel1.Text = "Transaction added successfully!";
                     MessageBox.Show("Transaction added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.DialogResult = DialogResult.OK;
-                    this.Close();
+                    DialogResult = DialogResult.OK;
+                    Close();
                 }
             }
             catch (Exception ex)
@@ -150,23 +113,20 @@ namespace dotNETFinal
 
         private void InsertTransaction(Transaction transaction)
         {
-            string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["SqlString"].ConnectionString;
             const string query = @"INSERT INTO Transactions (PropertyID, OwnerID, TransactionDate, TransactionType, Amount) 
                                    VALUES (@PropertyID, @OwnerID, @TransactionDate, @TransactionType, @Amount)";
 
             try
             {
-                using (var connection = new SqlConnection(connectionString))
-                using (var command = new SqlCommand(query, connection))
-                {
-                    command.Parameters.AddWithValue("@PropertyID", transaction.PropertyID);
-                    command.Parameters.AddWithValue("@OwnerID", transaction.OwnerID);
-                    command.Parameters.AddWithValue("@TransactionDate", transaction.TransactionDate);
-                    command.Parameters.AddWithValue("@TransactionType", transaction.TransactionType);
-                    command.Parameters.AddWithValue("@Amount", transaction.Amount);
-                    connection.Open();
-                    command.ExecuteNonQuery();
-                }
+                using var connection = new SqlConnection(_connectionString);
+                using var command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@PropertyID", transaction.PropertyID);
+                command.Parameters.AddWithValue("@OwnerID", transaction.OwnerID);
+                command.Parameters.AddWithValue("@TransactionDate", transaction.TransactionDate);
+                command.Parameters.AddWithValue("@TransactionType", transaction.TransactionType);
+                command.Parameters.AddWithValue("@Amount", transaction.Amount);
+                connection.Open();
+                command.ExecuteNonQuery();
             }
             catch (Exception ex)
             {

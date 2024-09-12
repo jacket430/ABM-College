@@ -4,5 +4,30 @@
     <ArrayOfString>
       <string>D:\GitHub\ABM-College\.NET\dotNETFinal\dotNETFinal\EditOwner.cs</string>
     </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\GitHub\ABM-College\.NET\dotNETFinal\dotNETFinal\EditProperty.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\GitHub\ABM-College\.NET\dotNETFinal\dotNETFinal\EditTransaction.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\GitHub\ABM-College\.NET\dotNETFinal\dotNETFinal\Main.cs</string>
+      <string>D:\GitHub\ABM-College\.NET\dotNETFinal\dotNETFinal\Main.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\GitHub\ABM-College\.NET\dotNETFinal\dotNETFinal\NewOwner.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\GitHub\ABM-College\.NET\dotNETFinal\dotNETFinal\NewProperty.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\GitHub\ABM-College\.NET\dotNETFinal\dotNETFinal\NewTransaction.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\GitHub\ABM-College\.NET\dotNETFinal\dotNETFinal\Properties Table Script.txt</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\GitHub\ABM-College\.NET\dotNETFinal\dotNETFinal\Transactions Table Script.txt</string>
+    </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
