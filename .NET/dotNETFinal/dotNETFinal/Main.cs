@@ -19,7 +19,6 @@ namespace dotNETFinal
         private void Form1_Load(object sender, EventArgs e)
         {
             LoadData("Properties");
-            MessageBox.Show("Make sure to check the Help tab for tips!", "Tips", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void LoadData(string tableName)

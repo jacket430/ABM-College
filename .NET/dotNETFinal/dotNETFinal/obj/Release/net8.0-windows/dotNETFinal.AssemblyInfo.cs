@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dotNETFinal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1393cbd0d82e3d5cd62e38f75d365ef06094303b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfbc9973f9a43ff6f2090772e8d62f714f3f73e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("dotNETFinal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dotNETFinal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
