@@ -1,0 +1,114 @@
+Task 1:
+
+Question 1:
+5 definitions of IoT devices:
+
+Oracle Canada: The Internet of Things (IoT) describes the network of physical objects, “things”, that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet.
+IBM: The Internet of Things (IoT) refers to a network of physical devices, vehicles, appliances, and other physical objects that are embedded with sensors, software, and network connectivity, allowing them to collect and share data.
+Amazon Web Services: The term IoT, or Internet of Things, refers to the collective network of connected devices and the technology that facilitates communication between devices and the cloud, as well as between the devices themselves.
+Cambridge Dictionary: Objects with computing devices in them that are able to connect to each other and exchange data using the internet.
+Trend Micro: The IoT can be described as an extension of the internet and other network connections to different sensors and devices, or “things”, affording even simple objects, such as lightbulbs, locks, and vents,  a higher degree of computing and analytical capabilities.
+
+Question 2:
+Identify the layers in a IoT architecture, 20 real-world examples for each layer.
+
+Perception/Device Layer: The physical sensors, devices that actually take the readings. 
+20 Examples:
+Accelerometers
+Air quality sensors
+Cameras
+Gas sensors (carbon monoxide, methane)
+GPS receivers
+Gyroscopes
+Heart rate monitors
+Humidity sensors
+Infrared sensors
+Light sensors
+Magnetic field sensors
+Moisture sensors
+Motion detectors
+Pressure sensors
+Proximity sensors
+RFID readers
+Sound/volume sensors
+Temperature sensors
+Ultrasonic sensors (measures distance)
+Vibration sensors (earthquake sensing, etc)
+
+Network Layer: Handles transmission of data to be processed.
+20 Examples:
+ANT+ modules (wireless communication usually for fitness devices)
+Bluetooth modules
+CoAP (internet protcol for connecting devices to other internet protocols)
+DASH7 modules (low power, long range wireless communication)
+Ethernet controllers
+Infrared modules
+IoT gateways
+LoRaWAN modules (long range, low power wireless communication)
+Mesh network routers
+Mobile/cellular modules
+NB-IoT modules (narrowband cellular connectivity)
+NFC modules
+Power line communication modules
+RF modules
+RPL (low power/lossy network distance-vector routing)
+Sattelite connection modules
+Thread protocol devices (secure mesh networking)
+Wi-SUN modules (wireless network for IoT devices)
+Wifi modules
+Zigbee modules (low power, low rate wireless communication)
+
+
+Processing/Middleware Layer: Layer responsible for processing/analyzing data delivered from the "Network Layer".
+20 Examples:
+Azure IoT Middleware for FreeRTOS (open source)
+Contiki (open source)
+DeviceHive (open source)
+Eclipse IoT
+Fiware (open source)
+Kaa IoT (open source)
+Kura (open source)
+Mainflux (open source)
+MOSDEN
+Node-RED
+OpenIoT (open source)
+OpenMTC (open source)
+SenseOne IoT
+SiteWhere (open source)
+ThingsBoard (open source)
+ThingSpeak (open source)
+ThingWorx
+Vermillion
+WSO2 IoT Server (open source)
+Zetta (open source)
+
+Application Layer: The layer the user interacts with
+20 Examples:
+Agriculture automation and monitoring
+Baby monitors
+Environmental/weather monitoring
+Fitness trackers
+Hospital equipment
+Industrial automation
+Power grid monitoring
+Remote diagnostic services for home appliances
+Remote food thermometers
+Security systems
+Smart lightbulbs
+Smart power outlets
+Smart refrigerators
+Smart thermostats
+Smart watches
+Smoke detectors
+Traffic monitoring
+Vehicle monitoring and assistance
+Waste management services
+Water system management (usage, leaks)
+
+Task 2:
+
+Fingerprint Reader + Deadbolt: Connected/IoT deadbolt, includes fingerprint reader, remote unlocking, and wireless/tap keys in addition to regular keys.
+Power Outlet: Smart power outlet, can be toggled remotely, connects to other smart home devices.
+Smoke Detector: Smart smoke detector, notifies users and the fire department when it detects a fire
+Proximity sensor: Component to be connected to a board, detects things in its proximity, variety of uses from security to manufacturing.
+Raspberry Pi 3B+

@@ -1,0 +1,7 @@
+D:\Github\ABM-College\C\Dec 13 2024\Dec 13 2024\bin\Debug\Dec 13 2024.exe.config
+D:\Github\ABM-College\C\Dec 13 2024\Dec 13 2024\bin\Debug\Dec 13 2024.exe
+D:\Github\ABM-College\C\Dec 13 2024\Dec 13 2024\bin\Debug\Dec 13 2024.pdb
+D:\Github\ABM-College\C\Dec 13 2024\Dec 13 2024\obj\Debug\Dec 13 2024.csproj.AssemblyReference.cache
+D:\Github\ABM-College\C\Dec 13 2024\Dec 13 2024\obj\Debug\Dec 13 2024.csproj.CoreCompileInputs.cache
+D:\Github\ABM-College\C\Dec 13 2024\Dec 13 2024\obj\Debug\Dec 13 2024.exe
+D:\Github\ABM-College\C\Dec 13 2024\Dec 13 2024\obj\Debug\Dec 13 2024.pdb

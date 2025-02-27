@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\ABM-College\\C\\Dec 12 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7C7BD8-39D2-480B-BFB5-22E2898B6D58}|Dec 12 1\\Dec 12 1.csproj|d:\\github\\abm-college\\c\\dec 12 1\\dec 12 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7C7BD8-39D2-480B-BFB5-22E2898B6D58}|Dec 12 1\\Dec 12 1.csproj|solutionrelative:dec 12 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7C7BD8-39D2-480B-BFB5-22E2898B6D58}|Dec 12 1\\Dec 12 1.csproj|d:\\github\\abm-college\\c\\dec 12 1\\dec 12 1\\friends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7C7BD8-39D2-480B-BFB5-22E2898B6D58}|Dec 12 1\\Dec 12 1.csproj|solutionrelative:dec 12 1\\friends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 226,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\ABM-College\\C\\Dec 12 1\\Dec 12 1\\Program.cs",
+              "RelativeDocumentMoniker": "Dec 12 1\\Program.cs",
+              "ToolTip": "D:\\Github\\ABM-College\\C\\Dec 12 1\\Dec 12 1\\Program.cs",
+              "RelativeToolTip": "Dec 12 1\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T02:40:59.102Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 174,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Friends.cs",
+              "DocumentMoniker": "D:\\Github\\ABM-College\\C\\Dec 12 1\\Dec 12 1\\Friends.cs",
+              "RelativeDocumentMoniker": "Dec 12 1\\Friends.cs",
+              "ToolTip": "D:\\Github\\ABM-College\\C\\Dec 12 1\\Dec 12 1\\Friends.cs",
+              "RelativeToolTip": "Dec 12 1\\Friends.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T02:20:03.808Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

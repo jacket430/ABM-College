@@ -1,0 +1,7 @@
+D:\Github\ABM-College\C\C Final\Q1\Q1\bin\Debug\Q1.exe.config
+D:\Github\ABM-College\C\C Final\Q1\Q1\bin\Debug\Q1.exe
+D:\Github\ABM-College\C\C Final\Q1\Q1\bin\Debug\Q1.pdb
+D:\Github\ABM-College\C\C Final\Q1\Q1\obj\Debug\Q1.csproj.AssemblyReference.cache
+D:\Github\ABM-College\C\C Final\Q1\Q1\obj\Debug\Q1.csproj.CoreCompileInputs.cache
+D:\Github\ABM-College\C\C Final\Q1\Q1\obj\Debug\Q1.exe
+D:\Github\ABM-College\C\C Final\Q1\Q1\obj\Debug\Q1.pdb
