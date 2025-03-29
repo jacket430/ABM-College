@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <style>
+        :root {
+            --base: #1e1e2e;
+            --surface: #313244;
+            --overlay: #45475a;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --subtext0: #a6adc8;
+            --mauve: #cba6f7;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--base);
+            color: var(--text);
+        }
+
+        h1 {
+            color: var(--mauve);
+            text-align: center;
+        }
+
+        .content-container {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: var(--surface);
+            border: 1px solid var(--overlay);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        ul, ol {
+            margin: 20px 0;
+            padding-left: 40px;
+        }
+
+        li {
+            margin: 10px 0;
+            color: var(--subtext1);
+        }
+
+        .image-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .image-caption {
+            color: var(--subtext0);
+            font-style: italic;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Question 6!</h1>
+
+    <div class="content-container">
+        <p>This is my test page! It uses the Catppucin color scheme. This is for question 6! It will go over a few basic HTML elements, with some pretty colors!</p>
+
+        <p>This is a second paragraph. It is also part of question 6. I'm just writing random text to fill the space. Hi! I hope you're having a good day!</p>
+
+        <h2>HTML List Examples</h2>
+        <h3>Unordered List:</h3>
+        <ul>
+            <li>HTML is used for the actual content of the page</li>
+            <li>CSS is used for styling the page</li>
+            <li>JavaScript is used for interactive elements, and various scripts. It is also used for styling certain elements.</li>
+        </ul>
+
+        <h3>Ordered List:</h3>
+        <ol>
+            <li>This is the first item in the ordered list.</li>
+            <li>This is the second item in the ordered list.</li>
+            <li>Lastly, this is the third item in the ordered list.</li>
+        </ol>
+
+        <div class="image-container">
+            <img src="https://picsum.photos/600/400" alt="A random image from picsum, a stock photo website.">
+            <div class="image-caption">A random image pulled from a stock photo website. Refresh the page to get a new image!</div>
+        </div>
+    </div>
+</body>
+</html> 

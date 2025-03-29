@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Another Page</title>
+    <style>
+        :root {
+            --base: #1e1e2e;
+            --surface: #313244;
+            --overlay: #45475a;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --subtext0: #a6adc8;
+            --mauve: #cba6f7;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: var(--base);
+            color: var(--text);
+        }
+        h1 {
+            color: var(--mauve);
+            text-align: center;
+        }
+        p {
+            color: var(--subtext1);
+            line-height: 1.6;
+        }
+        a {
+            color: var(--blue);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: var(--lavender);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Question 7! Part 2!</h1>
+    <h2>(but the D2L instructions say 8, for some reason)</h2>
+
+    <p>This is the second page, wow!! It doesn't have a whole lot of content, but it does have a link back to the first page!</p>
+    
+    <p>Click either the text link or the image below to return to the first page:</p>
+    <p><a href="index.html" title="This leads you back to the first page.">Return to the first page</a></p>
+    
+    <p style="text-align: center;">
+        <a href="index.html" title="Click this image to return to the first page">
+            <img src="https://picsum.photos/400/300?random=2" alt="Random placeholder image" style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+        </a>
+    </p>
+</body>
+</html> 

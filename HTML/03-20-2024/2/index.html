@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Text Formatting Tags</title>
+    <style>
+        :root {
+            --base: #1e1e2e;
+            --surface: #313244;
+            --overlay: #45475a;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --subtext0: #a6adc8;
+            --mauve: #cba6f7;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: var(--base);
+            color: var(--text);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: var(--surface);
+            border: 1px solid var(--overlay);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            border: 1px solid var(--overlay);
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: var(--surface);
+            color: var(--text);
+        }
+        tr:nth-child(even) {
+            background-color: var(--base);
+        }
+        tr:nth-child(odd) {
+            background-color: var(--surface);
+        }
+        tr:hover {
+            background-color: var(--overlay);
+            transition: background-color 0.3s ease;
+        }
+        .tag {
+            font-family: monospace;
+            color: var(--blue);
+        }
+        .example {
+            font-family: monospace;
+            color: var(--mauve);
+        }
+        .result {
+            color: var(--subtext1);
+        }
+        h1 {
+            color: var(--mauve);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Text Formatting Tags</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Description</th>
+                <th>Example</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tag">&lt;b&gt;</td>
+                <td>Bold text</td>
+                <td class="example">&lt;b&gt;Bold text&lt;/b&gt;</td>
+                <td class="result"><b>Bold text</b></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;strong&gt;</td>
+                <td>Important text (semantic bold)</td>
+                <td class="example">&lt;strong&gt;Important text&lt;/strong&gt;</td>
+                <td class="result"><strong>Important text</strong></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;i&gt;</td>
+                <td>Italic text</td>
+                <td class="example">&lt;i&gt;Italic text&lt;/i&gt;</td>
+                <td class="result"><i>Italic text</i></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;em&gt;</td>
+                <td>Emphasized text (semantic italic)</td>
+                <td class="example">&lt;em&gt;Emphasized text&lt;/em&gt;</td>
+                <td class="result"><em>Emphasized text</em></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;mark&gt;</td>
+                <td>Marked/highlighted text</td>
+                <td class="example">&lt;mark&gt;Highlighted text&lt;/mark&gt;</td>
+                <td class="result"><mark>Highlighted text</mark></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;small&gt;</td>
+                <td>Smaller text</td>
+                <td class="example">&lt;small&gt;Small text&lt;/small&gt;</td>
+                <td class="result"><small>Small text</small></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;del&gt;</td>
+                <td>Deleted text</td>
+                <td class="example">&lt;del&gt;Deleted text&lt;/del&gt;</td>
+                <td class="result"><del>Deleted text</del></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;ins&gt;</td>
+                <td>Inserted text</td>
+                <td class="example">&lt;ins&gt;Inserted text&lt;/ins&gt;</td>
+                <td class="result"><ins>Inserted text</ins></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;sub&gt;</td>
+                <td>Subscript text</td>
+                <td class="example">&lt;sub&gt;Subscript&lt;/sub&gt;</td>
+                <td class="result"><sub>Subscript</sub></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;sup&gt;</td>
+                <td>Superscript text</td>
+                <td class="example">&lt;sup&gt;Superscript&lt;/sup&gt;</td>
+                <td class="result"><sup>Superscript</sup></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;u&gt;</td>
+                <td>Underlined text</td>
+                <td class="example">&lt;u&gt;Underlined text&lt;/u&gt;</td>
+                <td class="result"><u>Underlined text</u></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;code&gt;</td>
+                <td>Computer code text</td>
+                <td class="example">&lt;code&gt;code text&lt;/code&gt;</td>
+                <td class="result"><code>code text</code></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;kbd&gt;</td>
+                <td>Keyboard input text</td>
+                <td class="example">&lt;kbd&gt;Ctrl + C&lt;/kbd&gt;</td>
+                <td class="result"><kbd>Ctrl + C</kbd></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;samp&gt;</td>
+                <td>Sample computer output</td>
+                <td class="example">&lt;samp&gt;Sample output&lt;/samp&gt;</td>
+                <td class="result"><samp>Sample output</samp></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;var&gt;</td>
+                <td>Variable text</td>
+                <td class="example">&lt;var&gt;variable&lt;/var&gt;</td>
+                <td class="result"><var>variable</var></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;pre&gt;</td>
+                <td>Preformatted text</td>
+                <td class="example">&lt;pre&gt;Preformatted text&lt;/pre&gt;</td>
+                <td class="result"><pre>Preformatted text</pre></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;blockquote&gt;</td>
+                <td>Block quotation</td>
+                <td class="example">&lt;blockquote&gt;Quoted text&lt;/blockquote&gt;</td>
+                <td class="result"><blockquote>Quoted text</blockquote></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;q&gt;</td>
+                <td>Short quotation</td>
+                <td class="example">&lt;q&gt;Short quote&lt;/q&gt;</td>
+                <td class="result"><q>Short quote</q></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;abbr&gt;</td>
+                <td>Abbreviation or acronym</td>
+                <td class="example">&lt;abbr title="World Health Organization"&gt;WHO&lt;/abbr&gt;</td>
+                <td class="result"><abbr title="World Health Organization">WHO</abbr></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;address&gt;</td>
+                <td>Contact information</td>
+                <td class="example">&lt;address&gt;Contact info&lt;/address&gt;</td>
+                <td class="result"><address>Contact info</address></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;cite&gt;</td>
+                <td>Title of a work</td>
+                <td class="example">&lt;cite&gt;The Great Gatsby&lt;/cite&gt;</td>
+                <td class="result"><cite>The Great Gatsby</cite></td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;bdo&gt;</td>
+                <td>Bi-directional text override</td>
+                <td class="example">&lt;bdo dir="rtl"&gt;Right to left&lt;/bdo&gt;</td>
+                <td class="result"><bdo dir="rtl">Right to left</bdo></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

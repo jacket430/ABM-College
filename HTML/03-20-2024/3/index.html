@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists Example</title>
+    <style>
+        :root {
+            --base: #1e1e2e;
+            --surface: #313244;
+            --overlay: #45475a;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --subtext0: #a6adc8;
+            --mauve: #cba6f7;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--base);
+            color: var(--text);
+        }
+
+        h1 {
+            color: var(--mauve);
+            text-align: center;
+        }
+
+        .list-container {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: var(--surface);
+            border: 1px solid var(--overlay);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: var(--blue);
+            margin-top: 0;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+            color: var(--subtext1);
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        dt {
+            color: var(--lavender);
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        dd {
+            color: var(--subtext0);
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Add hover effects */
+        .list-container:hover {
+            border-color: var(--mauve);
+            transition: border-color 0.3s ease;
+        }
+
+        /* Style list markers */
+        ul li::marker {
+            color: var(--mauve);
+        }
+
+        ol li::marker {
+            color: var(--blue);
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Lists Examples</h1>
+
+    <div class="list-container">
+        <h2>Unordered List (ul)</h2>
+        <ul>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+            <li>Fourth item</li>
+        </ul>
+    </div>
+
+    <div class="list-container">
+        <h2>Ordered List (ol)</h2>
+        <ol>
+            <li>First step</li>
+            <li>Second step</li>
+            <li>Third step</li>
+            <li>Fourth step</li>
+        </ol>
+    </div>
+
+    <div class="list-container">
+        <h2>Nested Lists</h2>
+        <ul>
+            <li>Main item 1
+                <ul>
+                    <li>Sub-item 1.1</li>
+                    <li>Sub-item 1.2</li>
+                </ul>
+            </li>
+            <li>Main item 2
+                <ol>
+                    <li>Sub-item 2.1</li>
+                    <li>Sub-item 2.2</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+
+    <div class="list-container">
+        <h2>Description List (dl)</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language - the standard language for creating web pages. Also common with messaging apps like Discord and Telegram.</dd>
+            
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets - used for styling and controlling the layout of web pages. Can even be modified with extensions like Stylus.</dd>
+        </dl>
+    </div>
+</body>
+</html>

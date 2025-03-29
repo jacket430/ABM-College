@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Example</title>
+    <style>
+        :root {
+            --base: #1e1e2e;
+            --surface: #313244;
+            --overlay: #45475a;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --subtext0: #a6adc8;
+            --mauve: #cba6f7;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: var(--base);
+            color: var(--text);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: var(--surface);
+            border: 1px solid var(--overlay);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            border: 1px solid var(--overlay);
+            padding: 12px;
+            text-align: left;
+            color: var(--subtext1);
+        }
+        th {
+            background-color: var(--surface);
+            color: var(--blue);
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: var(--base);
+        }
+        tr:hover {
+            background-color: var(--overlay);
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: var(--mauve);
+        }
+        h1 {
+            color: var(--mauve);
+            text-align: center;
+        }
+        em {
+            color: var(--subtext0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Table Example</h1>
+    
+    <table>
+        <caption>Rock Band 3 Songs</caption>
+        <thead>
+            <tr>
+                <th>Song</th>
+                <th>Artist</th>
+                <th>Album</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>20th Century Boy</td>
+                <td>T. Rex</td>
+                <td>Tanx</td>
+                <td>1973</td>
+            </tr>
+            <tr>
+                <td>25 or 6 to 4</td>
+                <td>Chicago</td>
+                <td>Chicago IX: Chicago's Greatest Hits</td>
+                <td>1976</td>
+            </tr>
+            <tr>
+                <td>Antibodies</td>
+                <td>Poni Hoax</td>
+                <td>Images of Sigrid</td>
+                <td>2008</td>
+            </tr>
+            <tr>
+                <td>Beast and the Harlot</td>
+                <td>Avenged Sevenfold</td>
+                <td>City of Evil</td>
+                <td>2005</td>
+            </tr>
+            <tr>
+                <td>The Beautiful People</td>
+                <td>Marilyn Manson</td>
+                <td>Antichrist Superstar</td>
+                <td>1996</td>
+            </tr>
+            <tr>
+                <td>Been Caught Stealing</td>
+                <td>Jane's Addiction</td>
+                <td>Ritual de lo Habitual</td>
+                <td>1990</td>
+            </tr>
+            <tr>
+                <td>Before I Forget</td>
+                <td>Slipknot</td>
+                <td>Vol. 3: (The Subliminal Verses)</td>
+                <td>2004</td>
+            </tr>
+            <tr>
+                <td>Bohemian Rhapsody</td>
+                <td>Queen</td>
+                <td>A Night at the Opera</td>
+                <td>1975</td>
+            </tr>
+            <tr>
+                <td>Break on Through (To the Other Side)</td>
+                <td>The Doors</td>
+                <td>The Doors</td>
+                <td>1967</td>
+            </tr>
+            <tr>
+                <td>Caught in a Mosh</td>
+                <td>Anthrax</td>
+                <td>Among the Living</td>
+                <td>1987</td>
+            </tr>
+            <tr>
+                <td>Centerfold</td>
+                <td>J. Geils Band</td>
+                <td>Centerfold</td>
+                <td>1981</td>
+            </tr>
+            <tr>
+                <td>China Grove</td>
+                <td>Doobie Brothers</td>
+                <td>The Captain and Me</td>
+                <td>1973</td>
+            </tr>
+        </tbody>
+    </table>
+    <em>...And 80-something more!</em>
+</body>
+</html>

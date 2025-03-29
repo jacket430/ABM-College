@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Page</title>
+    <style>
+        :root {
+            --base: #1e1e2e;
+            --surface: #313244;
+            --overlay: #45475a;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --subtext0: #a6adc8;
+            --mauve: #cba6f7;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: var(--base);
+            color: var(--text);
+        }
+        h1 {
+            color: var(--mauve);
+            text-align: center;
+        }
+        p {
+            color: var(--subtext1);
+            line-height: 1.6;
+        }
+        a {
+            color: var(--blue);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: var(--lavender);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Question 7!</h1>
+    <h2>(but the D2L instructions say 8, for some reason)</h2>
+    
+    <p>This is the first page. It just contains a link to the second page. Pretty exciting, right? It also contains the requirements in questions 8 and 9. (9 and 10 in D2L)</p>
+    
+    <p>Click either the text link or the image below to go to the other page:</p>
+    <p><a href="other_page.html" title="This leads you to another page.">Go to the other page</a></p>
+    
+    <p style="text-align: center;">
+        <a href="other_page.html" title="Click this image to go to the other page">
+            <img src="https://picsum.photos/400/300" alt="Random placeholder image" style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+        </a>
+    </p>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Images Example</title>
+    <style>
+        :root {
+            --base: #1e1e2e;
+            --surface: #313244;
+            --overlay: #45475a;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --subtext0: #a6adc8;
+            --mauve: #cba6f7;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--base);
+            color: var(--text);
+        }
+
+        h1 {
+            color: var(--mauve);
+            text-align: center;
+        }
+
+        .image-container {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: var(--surface);
+            border: 1px solid var(--overlay);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: var(--blue);
+            margin-top: 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin: 10px auto;
+            display: block;
+        }
+
+        .image-caption {
+            color: var(--subtext0);
+            font-style: italic;
+            text-align: center;
+            margin-top: 5px;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .image-card {
+            background-color: var(--base);
+            padding: 10px;
+            border-radius: 4px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Images Examples</h1>
+
+    <div class="image-container">
+        <h2>Basic Image</h2>
+        <img src="https://picsum.photos/400/300" alt="Random sample image">
+        <div class="image-caption">A basic image with alt text</div>
+    </div>
+
+    <div class="image-container">
+        <h2>Resizing Image</h2>
+        <img src="https://picsum.photos/400/300" 
+            srcset="https://picsum.photos/200/150 200w,
+                    https://picsum.photos/400/300 400w,
+                    https://picsum.photos/800/600 800w"
+            sizes="(max-width: 400px) 200px,
+                    (max-width: 800px) 400px,
+                    800px"
+            alt="Responsive image example">
+        <div class="image-caption">This image resizes to fit different screen sizes</div>
+    </div>
+    <div class="image-container">
+        <h2>Image Grid</h2>
+        <div class="image-grid">
+            <div class="image-card">
+                <img src="https://picsum.photos/200/200" alt="Grid image 1">
+                <div class="image-caption">Grid Image 1</div>
+            </div>
+            <div class="image-card">
+                <img src="https://picsum.photos/200/200" alt="Grid image 2">
+                <div class="image-caption">Grid Image 2</div>
+            </div>
+            <div class="image-card">
+                <img src="https://picsum.photos/200/200" alt="Grid image 3">
+                <div class="image-caption">Grid Image 3</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
