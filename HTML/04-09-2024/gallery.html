@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Goose College - Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Silly Goose College</h1>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="gallery.html" class="selected">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div class="college-description">
+        <h2 class="welcome-message">Campus Gallery</h2>
+        
+        <p>Welcome to our gallery! Here you can see some of the most prestigious moments in our college's history. From groundbreaking research in silliness to advanced studies in nonsense, these photos capture the essence of what makes Silly Goose College truly unique.</p>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="img/ChatGPT Image Apr 9, 2025, 08_24_35 PM.png" alt="Bingus, our Dean of Cat Studies, overseeing a class" onclick="openModal(this)">
+                <div class="gallery-caption">Bingus, our Dean of Cat Studies, overseeing a class</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_yza1n4yza1n4yza1.jpg" alt="Students practicing advanced napping techniques in Physics class" onclick="openModal(this)">
+                <div class="gallery-caption">Students practicing advanced napping techniques in Physics class</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_9l9zzn9l9zzn9l9z.jpg" alt="Condiment art masterpieces from Advanced Finger Painting" onclick="openModal(this)">
+                <div class="gallery-caption">Condiment art masterpieces from Advanced Finger Painting</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_n4jqm4n4jqm4n4jq.jpg" alt="Plant psychology research in progress" onclick="openModal(this)">
+                <div class="gallery-caption">Plant psychology research in progress</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_jjmxjmjjmxjmjjmx.jpg" alt="Paper airplane aerodynamics demonstration" onclick="openModal(this)">
+                <div class="gallery-caption">Paper airplane aerodynamics demonstration</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_tbcw5tbcw5tbcw5t.jpg" alt="Advanced Stick Figure Studies workshop" onclick="openModal(this)">
+                <div class="gallery-caption">Advanced Stick Figure Studies workshop</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_yuyrh8yuyrh8yuyr.jpg" alt="Special cookie research in Chemistry lab" onclick="openModal(this)">
+                <div class="gallery-caption">Special cookie research in Chemistry lab</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_aov4hyaov4hyaov4.jpg" alt="Imaginary money counting practice" onclick="openModal(this)">
+                <div class="gallery-caption">Imaginary money counting practice</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_o6xfo5o6xfo5o6xf.jpg" alt="Kid Pix Studies computer lab (imagination required)" onclick="openModal(this)">
+                <div class="gallery-caption">Kid Pix Studies computer lab (imagination required)</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_upeasxupeasxupea.jpg" alt="Campus library - home of our extensive nonsense collection" onclick="openModal(this)">
+                <div class="gallery-caption">Campus library - home of our extensive nonsense collection</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_6gj10z6gj10z6gj1.jpg" alt="Student lounge - perfect for existential discussions" onclick="openModal(this)">
+                <div class="gallery-caption">Student lounge - perfect for existential discussions</div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/Gemini_Generated_Image_3lgwyg3lgwyg3lgw.jpg" alt="Annual Silly Goose College graduation ceremony" onclick="openModal(this)">
+                <div class="gallery-caption">Annual Silly Goose College graduation ceremony</div>
+            </div>
+        </div>
+
+        <p><em>Note: All photos are for illustrative purposes only. Some events may or may not have actually occurred. The college is not responsible for any confusion between reality and imagination that may result from viewing these images.</em></p>
+    </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("imageModal");
+        
+        // Get the image and insert it inside the modal
+        var modalImg = document.getElementById("modalImage");
+        var captionText = document.getElementById("caption");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on an image, open the modal
+        function openModal(img) {
+            modal.style.display = "block";
+            modalImg.src = img.src;
+            captionText.innerHTML = img.alt;
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // Close modal when pressing Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                modal.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html> 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Goose College - Application Confirmation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Silly Goose College</h1>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div class="college-description">
+        <h2 class="welcome-message">Application Received!</h2>
+        
+        <div class="confirmation-message">
+            <p>Thank you for your application to Silly Goose College! Your submission has been received and is currently being reviewed by our esteemed faculty, including Bingus, our Dean of Cat Studies.</p>
+            
+            <p>Please note that due to the overwhelming amount of nonsense we receive daily, it may take anywhere from 24 hours to several lifetimes to process your application. We appreciate your patience while we determine if you're silly enough for our institution.</p>
+            
+            <p>You will receive an email confirmation shortly (or not, depending on how Bingus is feeling).</p>
+            
+            <div class="redirect-timer">
+                <p>Redirecting you to the home page in <span id="countdown">5</span> seconds...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let seconds = 5;
+        const countdownElement = document.getElementById('countdown');
+        
+        const timer = setInterval(() => {
+            seconds--;
+            countdownElement.textContent = seconds;
+            
+            if (seconds === 0) {
+                clearInterval(timer);
+                window.location.href = 'index.html';
+            }
+        }, 1000);
+    </script>
+
+    <style>
+        .confirmation-message {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: var(--surface0);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .confirmation-message p {
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .redirect-timer {
+            margin-top: 2rem;
+            text-align: center;
+            font-style: italic;
+        }
+
+        #countdown {
+            font-weight: bold;
+            color: var(--lavender);
+        }
+    </style>
+</body>
+</html> 
