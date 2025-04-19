@@ -1,0 +1,483 @@
+/* Import Catppuccin CSS */
+@import url('https://cdn.jsdelivr.net/npm/@catppuccin/palette/css/catppuccin.css');
+
+:root {
+    /* Base colors */
+    --base: var(--ctp-latte-base);
+    --crust: var(--ctp-latte-crust);
+    --mantle: var(--ctp-latte-mantle);
+    --surface0: var(--ctp-latte-surface0);
+    --surface1: var(--ctp-latte-surface1);
+    --surface2: var(--ctp-latte-surface2);
+    --overlay0: var(--ctp-latte-overlay0);
+    --overlay1: var(--ctp-latte-overlay1);
+    --overlay2: var(--ctp-latte-overlay2);
+    
+    /* Text colors */
+    --text: var(--ctp-latte-text);
+    --subtext1: var(--ctp-latte-subtext1);
+    --subtext0: var(--ctp-latte-subtext0);
+    
+    /* Accent colors */
+    --mauve: var(--ctp-latte-mauve);
+    --blue: var(--ctp-latte-blue);
+    --lavender: var(--ctp-latte-lavender);
+    --red: var(--ctp-latte-red);
+    --green: var(--ctp-latte-green);
+    --yellow: var(--ctp-latte-yellow);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    background-color: var(--base);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* Link Styles */
+a {
+    color: var(--blue);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--mauve);
+}
+
+a:visited {
+    color: var(--lavender);
+}
+
+/* Navigation Styles */
+nav {
+    background-color: var(--surface0);
+    padding: 0;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+nav li {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    height: 2.25rem;
+}
+
+nav a:hover {
+    background-color: var(--surface1);
+    color: var(--text);
+}
+
+nav a:visited {
+    color: var(--text);
+}
+
+nav a.selected {
+    background-color: var(--surface1);
+    color: var(--text);
+    font-weight: 600;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 0.25rem;
+}
+
+/* Content Styles */
+.content {
+    background-color: var(--surface0);
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.content h2 {
+    color: var(--mauve);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.content h3 {
+    color: var(--lavender);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+}
+
+/* Note styles */
+.content p em {
+    color: var(--subtext0);
+    display: block;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* Gallery Styles */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-item:hover {
+    transform: scale(1.02);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text);
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--surface2);
+    border-radius: 4px;
+    background-color: var(--base);
+    color: var(--text);
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--blue);
+    box-shadow: 0 0 0 2px rgba(30, 102, 245, 0.2);
+}
+
+select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1em;
+    padding-right: 2.5rem;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: normal;
+}
+
+button[type="submit"] {
+    background-color: var(--surface2);
+    color: var(--text);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--surface1);
+}
+
+optgroup {
+    color: var(--text);
+    font-style: normal;
+}
+
+.consent-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-weight: normal;
+}
+
+.consent-label input[type="checkbox"] {
+    margin-top: 0.25rem;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: var(--subtext0);
+    font-size: 0.9rem;
+}
+
+.footer a {
+    color: var(--blue);
+}
+
+.footer a:hover {
+    color: var(--mauve);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    nav {
+        height: auto;
+        padding: 1rem;
+    }
+}
+
+/* Heritage Park Specific Styles */
+.heritage-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.feature-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fort-calgary-image {
+    object-position: 50% 20%;
+}
+
+.stephen-avenue-image {
+    object-position: 50% 80%;
+}
+
+.stampede-park-image {
+    object-position: 50% 5%;
+}
+
+.calgary-tower-image {
+    object-position: 50% 35%;
+}
+
+.studio-bell-image {
+    object-position: 50% 12%;
+}
+
+.blue-ring-image {
+    object-position: 50% 1%;
+}
+
+.historical-areas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.st-mary-church-image {
+    object-position: 50% 100%;
+}
+
+.glenbow-museum-image {
+    object-position: 50% 100%;
+}
+
+.area {
+    background-color: var(--surface1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.area h4 {
+    color: var(--mauve);
+    margin-bottom: 0.5rem;
+}
+
+.visitor-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.info-section {
+    background-color: var(--surface1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-section h4 {
+    color: var(--mauve);
+    margin-bottom: 1rem;
+}
+
+.info-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-section li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.info-section li::before {
+    content: "•";
+    color: var(--blue);
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .historical-areas,
+    .visitor-info {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: var(--text);
+    padding: 10px 0;
+    height: 150px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: var(--text);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: var(--mauve);
+}

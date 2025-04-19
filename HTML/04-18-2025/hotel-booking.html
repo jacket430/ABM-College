@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Calgary - Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="calgary-logo-svg-vector.svg" alt="Calgary City Logo" class="logo">
+        <h1>Tourism Calgary</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="heritage.html">Heritage</a></li>
+            <li><a href="hotel-booking.html" class="selected">Hotel Booking</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h2>Book Your Stay in Calgary</h2>
+        
+        <p>Experience the perfect blend of western hospitality and modern comfort during your stay in Calgary. Please fill out the form below to make your reservation. All fields marked with * are required.</p>
+
+        <form action="confirmation.html" method="get">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="check-in">Check-in Date:</label>
+                <input type="date" id="check-in" name="check-in" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="check-out">Check-out Date:</label>
+                <input type="date" id="check-out" name="check-out" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="room-type">Room Type:</label>
+                <select id="room-type" name="room-type" required>
+                    <option value="">Select a room type</option>
+                    <option value="standard">Standard Room</option>
+                    <option value="deluxe">Deluxe Room</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="special-requests">Special Requests:</label>
+                <textarea id="special-requests" name="special-requests" rows="4"></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Submit Reservation</button>
+        </form>
+        
+        <p><em>Note: All bookings are subject to availability and confirmation. A valid credit card will be required to secure your reservation. Cancellation policies vary by hotel.</em></p>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 Absolutely nobody, idk man.</p>
+        <p>Special thanks to <a href="https://github.com/catppuccin/catppuccin" target="_blank">Catppuccin</a> for the beautiful color palette.</p>
+    </div>
+</body>
+</html> 
